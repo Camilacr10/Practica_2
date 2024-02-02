@@ -1,0 +1,76 @@
+body{
+    background-image: url(img/background.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+header{
+    background-color: rgba(157, 197, 223, 0.566);
+    text-align: center;
+    font-family: serif;
+    font-size: 33px;
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    margin-left: 340px;
+}
+
+nav ul li{
+    width: 150px;
+    padding: 10px 0;
+    background-color:  rgba(157, 197, 223, 0.566);
+    margin: 10px;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px; 
+    transition: border-radius 0.80s;
+    margin-top: 0px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(157, 197, 223, 0.566);
+    border-radius: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    background-color: rgba(154, 197, 223, 0.566);
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+#caracteristicas{
+    background-color: rgba(240, 248, 255, 0.496);
+    width: 500px;
+    height: 200px;
+    margin-left: 60px;
+    float: left;
+}
+
+#flora{
+    background-color: rgba(240, 248, 255, 0.496);
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+    float: left;
+}
+#video{
+    padding-top: 200px;
+}
+footer{
+    width: 1370px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(240, 248, 255);
+}
